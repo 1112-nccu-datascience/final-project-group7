@@ -1,12 +1,34 @@
-# [GroupID] your projrct title
+# [第7組] 多醣辨識
 The goals of this project.
+在一大堆由質譜儀得到的數據中得到想要的醣類
+質譜儀比較重要的數據：[H+]、dMass、dIntensity
+
+原始資料23193筆，從專家知識與化學結構 
+可以寫簡單的判斷可以濾掉一定不是的數據
+剩下277筆資料中可能有我們要的target
+{'F1H3N5',
+ 'F1H5N4S1',
+ 'F1H5N4S2',
+ 'F1H6N4S1_structure1',
+ 'F1H6N4S2',
+ 'F1H7N4S2',
+ 'F2H4N5',
+ 'F2H6N4S1',
+ 'F2H7N4G2',
+ 'F2H7N4S1G1',
+ 'F2H7N4S2',
+ 'Not target'}
+ 這是類別
 
 ## Contributors
 |組員|系級|學號|工作分配|
 |-|-|-|-|
-|何彥南|資科碩二|110753202|團隊中的吉祥物🦒，負責增進團隊氣氛| 
-|張小銘|資科碩二|xxxxxxxxx|團隊的中流砥柱，一個人打十個|
+|尤敏米茲夠|社會四|108204019|工作項目| 
+|葉佐晨|社會四|108204045|工作項目|
 |翁祐祥|資科碩一|111753226|工作項目|
+|曾偉綱|資科碩二|108753122|工作項目|
+|吳奇峰|資碩工一|111753114|工作項目|
+
 
 ## Quick start
 You might provide an example commend or few commends to reproduce your analysis, i.e., the following R script
