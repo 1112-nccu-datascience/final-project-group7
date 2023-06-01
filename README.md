@@ -1,10 +1,15 @@
 # [第7組] 多醣辨識
 The goals of this project.
 在一大堆由質譜儀得到的數據中得到想要的醣類
+
+
 質譜儀比較重要的數據：[H+]、dMass、dIntensity
+
 
 原始資料23193筆，從專家知識與化學結構 
 可以寫簡單的判斷可以濾掉一定不是的數據
+
+
 剩下277筆資料中可能有我們要的target
 {'F1H3N5',
  'F1H5N4S1',
@@ -18,6 +23,8 @@ The goals of this project.
  'F2H7N4S1G1',
  'F2H7N4S2',
  'Not target'}
+ 
+ 
  這是類別
 
 ## Contributors
