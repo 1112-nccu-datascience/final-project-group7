@@ -1,6 +1,6 @@
 # [第7組] A new tool to interpret glycomic profile of MS spectral data
 The goals of this project.
-在一大堆由質譜儀得到的數據中得到想要的醣類  
+辨識並分類醣質譜儀數據圖  
 
 質譜儀比較重要的數據：[H+]、dMass、dIntensity  
 
@@ -33,7 +33,7 @@ The goals of this project.
 |尤敏米茲夠|社會四|108204019|工作項目| 
 |葉佐晨|社會四|108204045|工作項目|
 |翁祐祥|資科碩一|111753226|工作項目|
-|曾偉綱|資科碩二|108753122|工作項目|
+|曾偉綱|資科碩二|108753122|ppt, rule model, 前處理|
 |吳奇峰|資碩工一|111753114|工作項目|
 
 
