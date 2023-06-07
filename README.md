@@ -11,7 +11,7 @@
 |-|-|-|-|
 |尤敏米茲夠|社會四|108204019|Oversampling, SVM, Random Forest| 
 |葉佐晨|社會四|108204045|KNN, 海報, GitHub, Normalization, PPT|
-|翁祐祥|資科碩一|111753226|Feature Importance, Decision Tree, Random Forest, KNN, Naive Bayes, PPT, GitHub|
+|翁祐祥|資科碩一|111753226|Feature Importance, Decision Tree, Random Forest, KNN, Naive Bayes, GitHub|
 |曾偉綱|資科碩二|108753122|PPT, WEKA, Rule Model, Data Collection, Simple Selection, Subject Context|
 |吳奇峰|資碩工一|111753114|部分文書, PPT, GitHub, Report Edition|
 
@@ -22,13 +22,13 @@ You might provide an example commend or few commends to reproduce your analysis,
 
 ```R
 
-Rscript code/F1_score.R --input data/output_name_nor_simple.csv --output results/F1_score.csv
+Rscript code/F1_score.R --input data/selection_data.csv --output results/F1_score.csv
 
-Rscript code/F1_score(with_not_target).R --input data/output_name_nor_simple.csv --output results/F1_score(with_not_target).csv
+Rscript code/F1_score_with_not_target.R --input data/selection_data.csv --output results/F1_score_with_not_target.csv
 
-Rscript code/smort_F1_score.R --input data/output_name_nor_simple.csv --output results/smort_F1_score.csv
+Rscript code/smote_F1_score.R --input data/selection_data.csv --output results/smote_F1_score.csv
 
-Rscript code/smort_F1_score(with_not_target).R --input data/output_name_nor_simple.csv --output results/smort_F1_score(with_not_target).csv
+Rscript code/smort_F1_score_with_not_target.R --input data/selection_data.csv --output results/smote_F1_score_with_not_target.csv
 
 ```
 
