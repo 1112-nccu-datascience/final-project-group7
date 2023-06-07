@@ -2,14 +2,7 @@
 The goals of this project.
 辨識並分類醣質譜儀數據圖  
 
-質譜儀比較重要的數據：[H+]、dMass、dIntensity  
-
-原始資料23193筆，從專家知識與化學結構  
-可以寫簡單的判斷可以濾掉一定不是的數據  
-
-
-剩下277筆資料中可能有我們要的target  
-所有類別  
+質譜儀比較重要的數據：[H+]、dMass、dIntensity，原始資料23193筆，從專家知識與化學結構，可以寫簡單的判斷可以濾掉一定不是的數據，剩下277筆資料中可能有我們要的target。以下是需要分類的所有類別：
 
 {'F1H3N5',
  'F1H5N4S1',
@@ -24,17 +17,16 @@ The goals of this project.
  'F2H7N4S2',
  'Not target'}
  
- 
- 
+詳細的報告架構與結果請見 <https://docs.google.com/presentation/d/1Y_ncRyJYwHpkdKdeKZxRlfjIt2Adcdj4z0GG7O-HSKI/edit?usp=sharing> 。
 
 ## Contributors
 |組員|系級|學號|工作分配|
 |-|-|-|-|
-|尤敏米茲夠|社會四|108204019|工作項目,model| 
-|葉佐晨|社會四|108204045|工作項目,model|
-|翁祐祥|資科碩一|111753226|工作項目,model|
-|曾偉綱|資科碩二|108753122|ppt, rule model, 前處理|
-|吳奇峰|資碩工一|111753114|部分文書|
+|尤敏米茲夠|社會四|108204019|Oversampling, SVM, Random Forest| 
+|葉佐晨|社會四|108204045|KNN, 海報, GitHub, Normalization, PPT|
+|翁祐祥|資科碩一|111753226|Feature Importance, Decision Tree, Random Forest, KNN, Naive Bayes, PPT|
+|曾偉綱|資科碩二|108753122|PPT, WEKA, Rule Model, Simple Selection, Subject Context|
+|吳奇峰|資碩工一|111753114|部分文書, PPT, GitHub, Report Edition|
 
 
 
@@ -44,7 +36,6 @@ You might provide an example commend or few commends to reproduce your analysis,
 ```R
 
 Rscript code/your_script.R --input data/training --output results/performance.tsv
-
 
 ```
 
