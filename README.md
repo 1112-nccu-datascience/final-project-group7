@@ -22,7 +22,13 @@ You might provide an example commend or few commends to reproduce your analysis,
 
 ```R
 
-Rscript code/your_script.R --input data/output_name_nor_simple.csv --output results/performance.csv
+Rscript code/F1_score.R --input data/output_name_nor_simple.csv --output results/F1_score.csv
+
+Rscript code/F1_score(with_not_target).R --input data/output_name_nor_simple.csv --output results/F1_score(with_not_target).csv
+
+Rscript code/smort_F1_score.R --input data/output_name_nor_simple.csv --output results/smort_F1_score.csv
+
+Rscript code/smort_F1_score(with_not_target).R --input data/output_name_nor_simple.csv --output results/smort_F1_score(with_not_target).csv
 
 ```
 
