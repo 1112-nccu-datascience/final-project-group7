@@ -2,7 +2,7 @@
 
 本專案的目標是辨識並分類醣質譜儀數據圖，質譜儀比較重要的數據：[H+]、dMass、dIntensity，原始資料23193筆，從專家知識與化學結構，可以寫簡單的判斷可以濾掉一定不是的數據，剩下277筆資料中可能有我們要的target。以下是需要分類的所有類別：
 
-'F1H3N5','F1H5N4S1','F1H5N4S2','F1H6N4S1_structure1','F1H6N4S2','F1H7N4S2','F2H4N5','F2H6N4S1','F2H7N4G2','F2H7N4S1G1','F2H7N4S2','Not target'
+'F1H3N5','F1H5N4S1','F1H5N4S2','F1H6N4S1_structure1','F1H6N4S2','F1H7N4S2','F2H4N5','F2H6N4S1','F2H7N4G2','F2H7N4S2','Not target'
  
 詳細的報告架構與結果請見 <https://docs.google.com/presentation/d/1Y_ncRyJYwHpkdKdeKZxRlfjIt2Adcdj4z0GG7O-HSKI/edit?usp=sharing> 。
 
@@ -67,5 +67,9 @@ idea by  [The Importance of Glycans of Viral and Host Proteins in Enveloped Viru
   * Cross-validation, F1 score, Average F1 score, Kappa
 
 ## References
-* Packages you use
-* Related publications
+* Comparative Analysis of Oversampling Techniques on Imbalanced Data, Vani Singhal, https://towardsdatascience.com/comparative-analysis-of-oversampling-techniques-on-imbalanced-data-cd46f172d49d
+* KNN (K-Nearest Neighbors), Italo José, https://towardsdatascience.com/knn-k-nearest-neighbors-1-a4707b24bd1d
+* Classifying data using Support Vector Machines(SVMs) in R, Akashkumar17, https://www.geeksforgeeks.org/classifying-data-using-support-vector-machinessvms-in-r/
+* What is random forest?, IBM, https://www.ibm.com/topics/random-forest
+* An Introduction to Naive Bayes Algorithm for Beginners, Turing, https://www.turing.com/kb/an-introduction-to-naive-bayes-algorithm-for-beginners
+* Decision tree, Wikipedia, https://en.wikipedia.org/wiki/Decision_tree
