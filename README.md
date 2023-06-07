@@ -30,7 +30,7 @@ The goals of this project.
 ## Contributors
 |組員|系級|學號|工作分配|
 |-|-|-|-|
-<<<<<<< Updated upstream
+
 |尤敏米茲夠|社會四|108204019|工作項目,model| 
 |葉佐晨|社會四|108204045|工作項目,model|
 |翁祐祥|資科碩一|111753226|工作項目,model|
