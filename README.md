@@ -30,11 +30,13 @@ The goals of this project.
 ## Contributors
 |組員|系級|學號|工作分配|
 |-|-|-|-|
-|尤敏米茲夠|社會四|108204019|工作項目| 
-|葉佐晨|社會四|108204045|工作項目|
-|翁祐祥|資科碩一|111753226|工作項目|
+<<<<<<< Updated upstream
+|尤敏米茲夠|社會四|108204019|工作項目,model| 
+|葉佐晨|社會四|108204045|工作項目,model|
+|翁祐祥|資科碩一|111753226|工作項目,model|
 |曾偉綱|資科碩二|108753122|ppt, rule model, 前處理|
-|吳奇峰|資碩工一|111753114|工作項目|
+|吳奇峰|資碩工一|111753114|部分文書|
+
 
 
 ## Quick start
@@ -48,7 +50,7 @@ Rscript code/your_script.R --input data/training --output results/performance.ts
 ```
 
 ## Folder organization and its related description
-idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Projects.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424) PLoS Comput Biol 5(7): e1000424.
+idea by  [The Importance of Glycans of Viral and Host Proteins in Enveloped Virus Infection](https://www.frontiersin.org/articles/10.3389/fimmu.2021.638573/full) 
 
 ### docs
 * Your presentation, 1112_DS-FP_groupID.ppt/pptx/pdf (i.e.,1112_DS-FP_group1.ppt), by **06.08**
@@ -66,6 +68,9 @@ idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Proje
   * Format  
     * 'entry no', 'MS1scan no', 'MS1Isolation mass', 'MS1monoIsomass', 'chargeState', 'in [H+]', 'MS2 Scan no'...'Structure'
   * Size 
+    * 數量*feature
+    * raw 23193*25000
+	* output_name_nor_simple 277*277
 * Output  
 
 ### code
@@ -78,7 +83,7 @@ idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Proje
 * What is a null model for comparison?
   *weka  
 * How do your perform evaluation?
-  * Cross-validation, or extra separated data
+  * Cross-validation, f1 score
 
 ## References
 * Packages you use
