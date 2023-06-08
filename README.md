@@ -46,8 +46,8 @@ idea by  [The Importance of Glycans of Viral and Host Proteins in Enveloped Viru
 ### data
 * Input 
   * Source  
-    *output_name_nor_simple.csv  
-	*output_name_nor_log.csv  
+    * output_name_nor_simple.csv  
+    * selection_data.csv  
   * Format  
     * 'entry no', 'MS1scan no', 'MS1Isolation mass', 'MS1monoIsomass', 'chargeState', 'in [H+]', 'MS2 Scan no'...'Structure'
   * Size 
@@ -62,13 +62,26 @@ idea by  [The Importance of Glycans of Viral and Host Proteins in Enveloped Viru
 
 ### code
 * Analysis steps
+  ＊set seed
+  ＊Feature Selection 
+  ＊Data Preprocessing
+  ＊model build
+  ＊prediction
+  ＊build confusion matrix
+  ＊compare F1_score, Kappa, accuarcy 
+  
 * Which method or package do you use? 
-  * original packages in the paper
-  * additional packages you found
+  * Naive Bayes(library(e1071))
+  * Decision Tree(library(rpart))
+  * Random Forest(library(randomForest))
+  * Knn(library(class))
+  * oversampling(library(scutr))
+  * confusion matrix(library(caret))
+  * Feature Selection(library(dplyr))
 
 ### results
 * What is a null model for comparison?
-  *weka  
+  ＊weka  
 * How do your perform evaluation?
   * Cross-validation, F1 score, Average F1 score, Kappa
 
