@@ -39,8 +39,8 @@ idea by  [The Importance of Glycans of Viral and Host Proteins in Enveloped Viru
 * Your presentation, 1112_DS-FP_groupID.ppt/pptx/pdf (i.e.,1112_DS-FP_group1.ppt), by **06.08**
 * Any related document for the project
   * gly_mass_program230410.pptx
-    *這是介紹GLYCANS的資料  
-  *
+     * 這是介紹GLYCANS的資料  
+  
   
   
 ### data
@@ -62,13 +62,13 @@ idea by  [The Importance of Glycans of Viral and Host Proteins in Enveloped Viru
 
 ### code
 * Analysis steps
-  ＊set seed
-  ＊Feature Selection 
-  ＊Data Preprocessing
-  ＊model build
-  ＊prediction
-  ＊build confusion matrix
-  ＊compare F1_score, Kappa, accuarcy 
+  * set seed
+  * Feature Selection
+  * Data Preprocessing
+  * model build
+  * prediction
+  * build confusion matrix
+  * compare F1_score, Kappa, accuarcy 
   
 * Which method or package do you use? 
   * Naive Bayes(library(e1071))
@@ -81,7 +81,7 @@ idea by  [The Importance of Glycans of Viral and Host Proteins in Enveloped Viru
 
 ### results
 * What is a null model for comparison?
-  ＊weka  
+  * weka  
 * How do your perform evaluation?
   * Cross-validation, F1 score, Average F1 score, Kappa
 
