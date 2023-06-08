@@ -2,7 +2,7 @@ args = commandArgs(trailingOnly=TRUE)
 
 #print((args))
 if (length(args)==0) {
-  stop("USAGE: Rscript  F1_score.R --input selection_data.csv --output F1_score.csv ", call.=FALSE)
+  stop("USAGE: Rscript  smote_F1_score.R --input selection_data.csv --output smote_F1_score.csv ", call.=FALSE)
 }
 
 # parse parameters
